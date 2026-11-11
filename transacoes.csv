@@ -1,0 +1,31 @@
+id,data,cliente_id,tipo,valor,descricao,categoria
+1,2026-01-05,CLI001,credito,3500.00,Salário de janeiro,salario
+2,2026-01-08,CLI001,debito,180.50,Supermercado,compra
+3,2026-01-12,CLI002,credito,2200.00,Serviço prestado,servico
+4,2026-01-15,CLI002,debito,750.00,Aluguel,conta
+5,2026-01-20,CLI003,debito,99.90,Streaming,assinatura
+6,2026-01-28,CLI003,credito,10000.00,Resgate de investimento,investimento
+7,2026-02-03,CLI003,credito,15000.00,Transferência recebida,transferencia
+8,2026-02-05,CLI001,credito,3500.00,Salário de fevereiro,salario
+9,2026-02-10,CLI002,debito,320.00,Energia elétrica,conta
+10,2026-02-14,CLI001,debito,1250.75,Compra de equipamento,compra
+11,2026-02-20,CLI002,credito,800.00,Reembolso,reembolso
+12,2026-02-27,CLI003,debito,89.90,Internet,conta
+13,2026-03-02,CLI003,debito,12500.00,Transferência enviada,transferencia
+14,2026-03-05,CLI001,credito,3500.00,Salário de março,salario
+15,2026-03-09,CLI002,debito,210.35,Farmácia,compra
+16,2026-03-15,CLI002,credito,1800.00,Projeto concluído,servico
+17,2026-03-21,CLI001,debito,450.00,Curso online,educacao
+18,2026-03-30,CLI003,debito,59.90,Streaming,assinatura
+,2026-01-10,CLI001,debito,100.00,ID vazio,compra
+abc,2026-01-11,CLI001,debito,100.00,ID não numérico,compra
+21,2026-01-12,,credito,200.00,Cliente vazio,transferencia
+22,15/02/2026,CLI002,debito,100.00,Formato de data inválido,compra
+23,2026-02-30,CLI002,debito,100.00,Data inexistente,compra
+24,2026-02-20,CLI002,pix,100.00,Tipo inválido,transferencia
+25,2026-03-01,CLI001,debito,abc,Valor não numérico,compra
+26,2026-03-02,CLI001,debito,0,Valor zero,compra
+27,2026-03-03,CLI001,debito,-50.00,Valor negativo,compra
+28,2026-03-04,CLI001,debito,NaN,Valor não finito,compra
+29,2026-3-05,CLI001,debito,100.00,Data sem zero à esquerda,compra
+7,2026-02-03,CLI003,credito,15000.00,Reenvio de registro duplicado,transferencia

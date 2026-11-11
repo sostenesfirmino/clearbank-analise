@@ -1,0 +1,112 @@
+{
+  "gerado_em": "2026-11-10",
+  "total_linhas_lidas": 30,
+  "total_transacoes_validas": 18,
+  "total_transacoes_invalidas": 12,
+  "duplicadas_descartadas": 1,
+  "periodo_analisado": {
+    "inicio": "2026-01-05",
+    "fim": "2026-03-30",
+    "dias_desde_mais_antiga": 309,
+    "dias_desde_mais_recente": 225,
+    "amplitude_dias": 84
+  },
+  "limite_suspeito": 10000.0,
+  "resumo_mensal": {
+    "2026-01": {
+      "quantidade": 6,
+      "total_credito": 15700.0,
+      "total_debito": 1030.4,
+      "saldo": 14669.6,
+      "media": 2788.4,
+      "maior_transacao": {
+        "id": 6,
+        "data": "2026-01-28",
+        "cliente_id": "CLI003",
+        "tipo": "credito",
+        "valor": 10000.0,
+        "descricao": "Resgate de investimento",
+        "categoria": "investimento"
+      },
+      "menor_transacao": {
+        "id": 5,
+        "data": "2026-01-20",
+        "cliente_id": "CLI003",
+        "tipo": "debito",
+        "valor": 99.9,
+        "descricao": "Streaming",
+        "categoria": "assinatura"
+      }
+    },
+    "2026-02": {
+      "quantidade": 6,
+      "total_credito": 19300.0,
+      "total_debito": 1660.65,
+      "saldo": 17639.35,
+      "media": 3493.44,
+      "maior_transacao": {
+        "id": 7,
+        "data": "2026-02-03",
+        "cliente_id": "CLI003",
+        "tipo": "credito",
+        "valor": 15000.0,
+        "descricao": "Transferência recebida",
+        "categoria": "transferencia"
+      },
+      "menor_transacao": {
+        "id": 12,
+        "data": "2026-02-27",
+        "cliente_id": "CLI003",
+        "tipo": "debito",
+        "valor": 89.9,
+        "descricao": "Internet",
+        "categoria": "conta"
+      }
+    },
+    "2026-03": {
+      "quantidade": 6,
+      "total_credito": 5300.0,
+      "total_debito": 13220.25,
+      "saldo": -7920.25,
+      "media": 3086.71,
+      "maior_transacao": {
+        "id": 13,
+        "data": "2026-03-02",
+        "cliente_id": "CLI003",
+        "tipo": "debito",
+        "valor": 12500.0,
+        "descricao": "Transferência enviada",
+        "categoria": "transferencia"
+      },
+      "menor_transacao": {
+        "id": 18,
+        "data": "2026-03-30",
+        "cliente_id": "CLI003",
+        "tipo": "debito",
+        "valor": 59.9,
+        "descricao": "Streaming",
+        "categoria": "assinatura"
+      }
+    }
+  },
+  "transacoes_suspeitas": [
+    {
+      "id": 7,
+      "data": "2026-02-03",
+      "cliente_id": "CLI003",
+      "tipo": "credito",
+      "valor": 15000.0,
+      "descricao": "Transferência recebida",
+      "categoria": "transferencia"
+    },
+    {
+      "id": 13,
+      "data": "2026-03-02",
+      "cliente_id": "CLI003",
+      "tipo": "debito",
+      "valor": 12500.0,
+      "descricao": "Transferência enviada",
+      "categoria": "transferencia"
+    }
+  ]
+}
